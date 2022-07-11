@@ -1,8 +1,9 @@
 # Self_Driving_Vehicle-Behavioral_cloning_project
-Using a Deep Learning model to train a vehicle to autonomously navigate using Unity simulator
+Using Nvidia's Deep Learning model to train a vehicle to autonomously navigate using Unity simulator.
 
+This project is a part of Udacity's Self driving car engineer nanodegree. Recently udacity had made public the simulator that had been used in the project. So, I have
+used that simulator and created a deep learning model in Pytorch that trains the vehicle to run autonomously in the simulator environment. Simulator for windows can be downloaded form this link : https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/Term1-Sim/term1-simulator-windows.zip
 ## Simulator
-the self driving car simulator can be downloaded from this link for windows : https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/Term1-Sim/term1-simulator-windows.zip
 The self driving car simulator has two modes. One to generate the training data and the other for testing our trained model in autonomous mode.
 
 ![image](https://user-images.githubusercontent.com/81529956/178166826-dc75fda1-96fd-4cec-9f86-24168dd60cfb.png)
