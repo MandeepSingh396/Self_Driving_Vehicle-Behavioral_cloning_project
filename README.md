@@ -11,7 +11,8 @@ The self driving car simulator has two modes. One to generate the training data 
 ### Training mode: 
 It is used to collect the training data for our deep learning model. You can normally drive the car around on the track as you do in any car video game i.e. usng the arrow keys.
 But I would recommend using the mouse buttons for the steering input as doing such gives a continuous input rather than discreet inputs being given through keyboard buttons.
-You can start the data collection by clicking on the recording button on the top right and start driving around the track. 5-6 laps around the track would give us enough data to train the deep learning model.
+You can start the data collection by clicking on the recording button on the top right and start driving around the track. 5-6 laps around the track would give us enough data to train the deep learning model. You can specify the folder where you want to store the data. Also, you will see that a driving_log csv file is generated 
+which has all the image addresses along with steering, brake, throttle and speed data of the car around the track.
 
 ![image](https://user-images.githubusercontent.com/81529956/178166997-17ea8f28-c78a-412d-8f99-388e99ead962.png)
 ### Autonomous mode:
