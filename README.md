@@ -25,7 +25,7 @@ and run the simulator in autonomous model. You will see that the car will start 
 Before we give the data as input to our deep learning model we have to preprocess the data so that model is trained faster and efficiently. Below pre-processing techniques have been used:
 1. Data Normalization: The RGB image pixels have value between 0-255. So, we normalize the pixel values to the range 0-1. Why we do normalization?You can read here :
 https://towardsdatascience.com/batch-normalization-and-dropout-in-neural-networks-explained-with-pytorch-47d7a8459bcd
-2. Data Augmentation: It should be ntoiced that the image data that we have collected from simulator is from an anti-clockwise track which has a lot of left turns and very few right turns.
+2. Data Augmentation: It should be noticed that the image data that we have collected from simulator is from an anti-clockwise track which has a lot of left turns and very few right turns.
 This will hamper the performance of our model as it may not have enough data to learn the right handed turns. So, I have flipped all the images horizontally and added them to the original 
 data such that we can train the model efficiently.
 3. Image crop: The initial image size that we get from the simulator is 160x320. But all of the information in the image is not useful. Like, the top part of the image shows hills and lower portion of the images
@@ -38,7 +38,8 @@ The CNN model used is Nvidia's self driving car model for autonomous vehicles. Y
 
 ## Results
 Once the model is trained and state dictionaries are loaded in model_Nvidia.h5 file, we can run the driveN.py file in terminal to run the vehicle autonomously in simulator.
-Note: You can to run the simulator in autonomous mode first then only driveN.py file will run.
+
+Note: You have to run the simulator in autonomous mode first then only driveN.py file will run.
 
 https://user-images.githubusercontent.com/81529956/178168054-7c8b0e77-5365-4075-b49e-9308e6a2745c.mp4
 
