@@ -46,7 +46,7 @@ https://user-images.githubusercontent.com/81529956/178168054-7c8b0e77-5365-4075-
 ## How to run the project
 Run the below line of code in terminal to get the desired results:
 1. python model.py - run this code file to load and pre-process the data and then train the CNN model. The model's state dictionaries will be stored in model_nvidia.h5
-2. python driveN.py model_Nvidia.h5 - Along with this code run the simulator in autonomous mode. The car will start moving in simulator as per the model's steering angle putput.
+2. python driveN.py model_Nvidia.h5 - Along with this code run the simulator in autonomous mode. The car will start moving in simulator as per the model's steering angle output.
 3. python driveN.py model_Nvidia.h5 video_images - This command will capture the images when vehicle is running in autonomous mode and save them in video_images folder.
 4. python video.py video_images - This will make a video of all the images in the video_images folder.
 
